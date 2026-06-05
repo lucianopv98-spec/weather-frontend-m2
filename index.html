@@ -16,68 +16,112 @@
 
 <body>
     <!--Barra de navegación-->
-    <nav class="navbar navbar-dark navbar-expand-lg py-3">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="https://uxwing.com/wp-content/themes/uxwing/download/weather/weather-icon.png" alt="Logo"
-                    width="40" height="40" class="d-inline-block align-middle">
-                El tiempo en Chile
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navPagina">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <header>
 
-            <div class="collapse navbar-collapse" id="navPagina">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de nosotros</a>
-                    </li>
-                </ul>
-            </div>
+        <nav class="navbar navbar-dark navbar-expand-lg py-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/weather/weather-icon.png" alt="Logo"
+                        width="40" height="40" class="d-inline-block align-middle">
+                    El tiempo en Chile
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navPagina">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        </div>
-    </nav>
-
-    <div class="container d-flex flex-column align-items-center mt-5">
-        <!--Titulo-->
-        <h1>Clima en las ciudades de Chile</h1>
-        <p>Consulta el clima actual en las principales ciudades</p>
-
-        <!--Tarjetas con clima de las ciudades-->
-        <div class="row">
-            <div class="col-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Santiago</h5>
-                        <img src="https://cdn-icons-png.flaticon.com/512/4470/4470693.png" class="card-img-top" alt="Icono de tiempo soleado">
-                        <p class="tiempoBold">22°C</p>
-                        <p>Soleado</p>
-                        <a href="#" class="btn btn-primary">Ver detalle</a>
-                    </div>
+                <div class="collapse navbar-collapse" id="navPagina">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Acerca de nosotros</a>
+                        </li>
+                    </ul>
                 </div>
+
             </div>
-            <div class="col-3">1</div>
-            <div class="col-3">1</div>
-            <div class="col-3">1</div>
-        </div>
-        <div class="row">
-            <div class="col-3">1</div>
-            <div class="col-3">1</div>
-            <div class="col-3">1</div>
-            <div class="col-3">1</div>
-        </div>
-        <div class="row">
-            <div class="col-3">1</div>
-            <div class="col-3">1</div>
-            <div class="col-3">1</div>
-            <div class="col-3">1</div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section> <!--Tiempo parte principal-->
+
+            <div class="container d-flex flex-column align-items-center mt-5">
+                <!--Titulo-->
+                <h1>Clima en las ciudades de Chile</h1>
+                <p>Consulta el clima actual en las principales ciudades</p>
+
+                <!--Tarjetas con clima de las ciudades responsivas-->
+                <div class="row w-100 mt-4">
+                    <article class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="titulo-card">Santiago</h3>
+                                <img src="https://cdn-icons-png.flaticon.com/512/4470/4470693.png" width="100"
+                                    height="100" alt="Icono de tiempo soleado">
+                                <p class="tiempoBold">22°C</p>
+                                <p>Soleado</p>
+                                <a href="#" class="btn btn-primary">Ver detalle</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="col-3">1</div>
+                    <div class="col-3">1</div>
+                    <div class="col-3">1</div>
+                </div>
+                <div class="row w-100 mt-4">
+                    <article class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="titulo-card">Santiago</h3>
+                                <img src="https://cdn-icons-png.flaticon.com/512/4470/4470693.png" width="100"
+                                    height="100" alt="Icono de tiempo soleado">
+                                <p class="tiempoBold">22°C</p>
+                                <p>Soleado</p>
+                                <a href="#" class="btn btn-primary">Ver detalle</a>
+                            </div>
+                        </div>
+                    </article>
+                    <div class="col-3">1</div>
+                    <div class="col-3">1</div>
+                    <div class="col-3">1</div>
+                </div>
+                <div class="row w-100 mt-4">
+                    <article class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="titulo-card">Santiago</h3>
+                                <img src="https://cdn-icons-png.flaticon.com/512/4470/4470693.png" width="100"
+                                    height="100" alt="Icono de tiempo soleado">
+                                <p class="tiempoBold">22°C</p>
+                                <p>Soleado</p>
+                                <a href="#" class="btn btn-primary">Ver detalle</a>
+                            </div>
+                        </div>
+                    </article>
+                    <div class="col-3">1</div>
+                    <div class="col-3">1</div>
+                    <div class="col-3">1</div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--Footer-->
+
+        <footer>
+            <p>Proyecto educativo creado con HTML, CSS y JavaScript - Luciano Padilla </p>
+        </footer>
         </div>
 
-    </div>
+
+    </main>
+
 
 
 

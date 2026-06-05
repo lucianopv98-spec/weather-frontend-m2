@@ -1,18 +1,62 @@
+/* Configuración Global */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Barra de navegación */
 .navbar {
     background-color: rgba(149, 116, 238, 0.901);
 }
 
-.navbar-brand { /* Cambiar tamaño navbar aca */
-    font-size: 1.5rem; 
+.navbar-brand {
+    /* Cambiar tamaño navbar aca */
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
 .contenedor-centrado {
     display: flex;
-    justify-content: center; 
-    align-items: center;     
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*Modificación de tarjetas de tiempo*/
+.card-body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    border-width: 0.5px;
+    border-color: rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s; /* Animación suave al pasar el mouse */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.titulo-card {
+    font-weight: bold;
 }
 
 .tiempoBold {
-    font-weight: bold; /* Negrilla a temperatura */
+    font-weight: bold;
+    /* Negrilla a temperatura */
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: #abbaba;
+  color: black;
 }
