@@ -25,7 +25,7 @@ body {
 
 
 /*Modificación de tarjetas de tiempo*/
-.card-body {
+.card-cuerpo {
     display: flex;
     flex-direction: column; 
     justify-content: center;
