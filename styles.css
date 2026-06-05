@@ -1,0 +1,18 @@
+.navbar {
+    background-color: rgba(149, 116, 238, 0.901);
+}
+
+.navbar-brand { /* Cambiar tamaño navbar aca */
+    font-size: 1.5rem; 
+    font-weight: 500;
+}
+
+.contenedor-centrado {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+.tiempoBold {
+    font-weight: bold; /* Negrilla a temperatura */
+}
