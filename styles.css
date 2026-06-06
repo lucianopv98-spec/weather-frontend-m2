@@ -1,9 +1,15 @@
+@import url('https://googleapis.com');
+
 /* Configuración Global */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to top, #e8e3e3 0%, #ffffff 100%);
 }
+
+
 
 /* Barra de navegación */
 .navbar {
@@ -16,13 +22,6 @@ body {
     font-weight: 500;
 }
 
-.contenedor-centrado {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
 
 /*Modificación de tarjetas de tiempo*/
 .card-cuerpo {
@@ -31,11 +30,11 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 }
 
 .card {
-    border-width: 0.5px;
-    border-color: rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
     transition: transform 0.2s; /* Animación suave al pasar el mouse */
 }
 
@@ -47,6 +46,10 @@ body {
     font-weight: bold;
 }
 
+.btn-primary {
+  padding: 12px 24px;
+}
+
 .tiempoBold {
     font-weight: bold;
     /* Negrilla a temperatura */
@@ -56,7 +59,9 @@ body {
 
 footer {
   text-align: center;
-  padding: 5px;
-  background-color: #abbaba;
+  padding: 10px;
+  background-color: #f1f1f36c;
   color: black;
+  min-height: 50px;
+  margin-top: auto;
 }
