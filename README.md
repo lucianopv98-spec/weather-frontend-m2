@@ -17,7 +17,7 @@ Una aplicación web sencilla  para visualizar el estado del clima en las princip
 
 ##  Cómo usar
 
-1. Descarga o clona este repositorio.
+1. Descarga o clona este [repositorio](https://github.com/lucianopv98-spec/weather-frontend-m2)
 2. Abre el archivo `index.html` en cualquier navegador moderno.
 
 ---
