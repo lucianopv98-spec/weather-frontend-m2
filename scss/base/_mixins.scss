@@ -1,0 +1,15 @@
+@mixin flex-columna-centrada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@mixin levantar-al-pasar($distancia) {
+    transition: transform $transicion-rapida;
+
+    &:hover {
+        transform: translateY($distancia);
+    }
+}

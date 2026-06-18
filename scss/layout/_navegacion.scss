@@ -1,0 +1,8 @@
+.navegacion {
+    background-color: $color-navegacion;
+
+    &__marca {
+        font-size: $tamano-marca;
+        font-weight: 500;
+    }
+}

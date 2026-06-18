@@ -1,0 +1,20 @@
+.tarjeta-clima {
+    padding-bottom: $espaciado-pie-pagina;
+    @include levantar-al-pasar($desplazamiento-tarjeta);
+
+    &__cuerpo {
+        @include flex-columna-centrada;
+    }
+
+    &__titulo {
+        font-weight: bold;
+    }
+
+    &__boton {
+        padding: $padding-boton-y $padding-boton-x;
+    }
+
+    &__temperatura {
+        font-weight: bold;
+    }
+}

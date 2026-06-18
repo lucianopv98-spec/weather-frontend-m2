@@ -1,0 +1,58 @@
+@import url("https://googleapis.com");
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(to top, #e8e3e3 0%, #ffffff 100%);
+}
+
+.navegacion {
+  background-color: rgba(149, 116, 238, 0.901);
+}
+.navegacion__marca {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.pie-pagina {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(241, 241, 243, 0.4235294118);
+  color: black;
+  min-height: 50px;
+  margin-top: auto;
+}
+
+.tarjeta-clima {
+  padding-bottom: 10px;
+  transition: transform 0.2s;
+}
+.tarjeta-clima:hover {
+  transform: translateY(-5px);
+}
+.tarjeta-clima__cuerpo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.tarjeta-clima__titulo {
+  font-weight: bold;
+}
+.tarjeta-clima__boton {
+  padding: 12px 24px;
+}
+.tarjeta-clima__temperatura {
+  font-weight: bold;
+}
+
+.pronostico__dia {
+  font-weight: bold;
+}
+.pronostico__temperatura {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=main.css.map */

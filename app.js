@@ -160,10 +160,10 @@ $(document).ready(function () {
         info.pronostico.forEach(dia => {
             htmlPronostico += `
                 <div class="col">
-                    <div class="card p-2 h-100 border-0 shadow-sm">
-                        <p class="fw-bold mb-1">${dia.dia}</p>
-                        <img src="${dia.icon}" width="40" class="mx-auto mb-2">
-                        <p class="mb-0">${dia.temp}</p>
+                    <div class="pronostico__tarjeta card p-2 h-100 border-0 shadow-sm">
+                        <p class="pronostico__dia mb-1">${dia.dia}</p>
+                        <img src="${dia.icon}" width="40" class="pronostico__icono mx-auto mb-2">
+                        <p class="pronostico__temperatura">${dia.temp}</p>
                     </div>
                 </div>`;
         });
