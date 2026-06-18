@@ -1,6 +1,6 @@
 @import url('https://googleapis.com');
 
-/* Configuración Global */
+/* --- 1. BASE --- */
 body {
     min-height: 100vh;
     display: flex;
@@ -9,59 +9,58 @@ body {
     background-image: linear-gradient(to top, #e8e3e3 0%, #ffffff 100%);
 }
 
-
-
-/* Barra de navegación */
-.navbar {
-    background-color: rgba(149, 116, 238, 0.901);
+/* --- 2. LAYOUT --- */
+.l-footer {
+    text-align: center;
+    padding: 10px;
+    color: black;
+    min-height: 50px;
+    margin-top: auto;
 }
 
-.navbar-brand {
-    /* Cambiar tamaño navbar aca */
-    font-size: 1.5rem;
-    font-weight: 500;
+/* --- 3. MODULES --- */
+.navbar-brand-custom {
+    text-decoration: none;
+    color: white;
 }
 
+.m-card {
+    padding: 15px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    background-color: #fff;
+}
 
-/*Modificación de tarjetas de tiempo*/
-.card-cuerpo {
+.m-card-content {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
 }
 
-.card {
-    padding-bottom: 10px;
-    transition: transform 0.2s; /* Animación suave al pasar el mouse */
+/* --- 4. STATE --- */
+.is-lifted {
+    transition: transform 0.2s;
 }
 
-.card:hover {
+.is-lifted:hover {
     transform: translateY(-5px);
 }
 
-.titulo-card {
+/* --- 5. THEME --- */
+.t-brand-purple {
+    background-color: rgba(149, 116, 238, 0.901);
+}
+
+.t-light-gray {
+    background-color: #f1f1f36c;
+}
+
+.t-bold {
     font-weight: bold;
 }
 
-.btn-primary {
-  padding: 12px 24px;
-}
-
-.tiempoBold {
-    font-weight: bold;
-    /* Negrilla a temperatura */
-}
-
-/* Footer */
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #f1f1f36c;
-  color: black;
-  min-height: 50px;
-  margin-top: auto;
+.t-xl {
+    font-size: 1.5rem;
 }
